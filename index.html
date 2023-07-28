@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./countries.js" defer></script>
+		<script src="./script.js" defer></script>
+		<title>Day #1 - Currency Converter</title>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Currency Converter</h2>
+			<form>
+				<div>
+					<p>Amount</p>
+					<input type="text" value="1" />
+				</div>
+				<div class="convert-box">
+					<div class="from">
+						<p>From</p>
+						<div class="select-input">
+							<img src="https://flagcdn.com/48x36/br.png" alt="bandeira do brasil" />
+							<select></select>
+						</div>
+					</div>
+
+					<div class="reverse"><i class="fas fa-exchange-alt"></i></div>
+					<div class="to">
+						<p>To</p>
+						<div class="select-input">
+							<img src="https://flagcdn.com/48x36/us.png" alt="bandeira dos estados unidos" />
+							<select></select>
+						</div>
+					</div>
+					<div class="result">Getting Exchange Rate...</div>
+					<button>Get Exchange Rate</button>
+				</div>
+			</form>
+		</div>
+		<script src="https://kit.fontawesome.com/36c729e8d6.js" crossorigin="anonymous"></script>
+	</body>
+</html>
